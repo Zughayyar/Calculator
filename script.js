@@ -75,3 +75,9 @@ function calculate() {                                      // The main function
         display_variable.textContent = result
     }
 }
+
+function back_space(num) {
+    if (Math.abs(num) > 0) {
+        return Math.trunc(num/10);
+    }
+}

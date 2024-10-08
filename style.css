@@ -89,4 +89,5 @@ button:hover {
     height: 20px;
     font-size: 15px;
     text-align: end;
+    user-select:none;
 }
